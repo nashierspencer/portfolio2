@@ -1,0 +1,206 @@
+/* background bar*/
+#grad1 {
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(44, 201, 44), indigo);
+    
+  }
+
+
+/*Body background*/
+    body {background-color: rgb(31, 27, 26);
+    background-image: url("P-BACKGROUND\ LAYOUT.png") ;
+}
+ 
+  .bodyimage {
+    width: 100%;
+    length: 100%;
+    margin: 0;
+    border: 0;
+
+  }
+  
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /*navigation bar*/
+
+
+  nav ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  nav ul li {padding: 10px 15px;
+    
+  }
+  
+  nav ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 0 5px;
+    
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+      font-weight: bold;
+  }
+  
+  /* Change the link color hover */
+  li a:hover {
+    background-color: rgb(2, 63, 2);
+  }
+
+
+ /* Titles class for everthing below*/
+
+.Titles {
+
+  font-size: 40px;
+  color: #e0e0e0;
+  margin-top: 100px;
+  padding: 0 0 15px 20px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  
+      
+}
+
+
+
+  /* About Me Section */
+
+.article {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+  .aboutmeimg {
+    width: 15%;
+    length: 15%;
+    float:left;
+    margin-right: 1px;
+
+  }
+
+
+
+  .flower {
+ height: 5%;
+ width: 100%;
+  }
+
+  p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: 5px;
+    color:#e0e0e0;
+    font-size: 20px;
+
+  }
+
+
+
+/* Project/ placeholder images*/
+
+
+.placeholder {
+ width: 400px;
+ length: 800px;
+ margin: 1px ;
+ background-color: rgb(3, 109, 12) ;
+ border-color:rgb(3, 109, 12) ;
+
+
+}
+
+
+/* Why choose Me*/
+h4 {margin-top: 60%;}
+
+.project {
+    justify-content: center;
+  display: flex;}
+}
+
+
+
+
+@media only screen and (max-width: 1125px) {
+
+  .placeholder {
+    width: 350px;
+    length: 560px;
+    margin: 1px ;
+    background-color: rgb(3, 109, 12) ;
+    border-color:rgb(3, 109, 12) ;}
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .placeholder {
+    width: 175px;
+    length: 300px;
+    margin: 1px ;
+    background-color: rgb(3, 109, 12) ;
+    border-color:rgb(3, 109, 12) ;}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .placeholder {
+    width: 100px;
+    length: 200px;
+    margin: 1px ;
+    background-color: rgb(3, 109, 12) ;
+    border-color:rgb(3, 109, 12) ;
+    justify-content: center;
+  display: flex;}
+
+  .Titles {
+
+    font-size: 30px;
+    color: #e0e0e0;
+    margin-top: 50px;
+    padding: 0 0 15px 20px;}
+
+    p { font-size: 15px;}
+
+    .nav {font-size: 15px;}
+
+}
+@media only screen and (max-width: 400px) {
+
+  .placeholder {
+    width: 50px;
+    length: 100px;
+    margin: 1px ;
+    background-color: rgb(3, 109, 12) ;
+    border-color:rgb(3, 109, 12) ;}
+
+    .Titles {
+
+      font-size: 20px;
+      color: #e0e0e0;
+      margin-top: 30px;
+      padding: 0 0 15px 20px;}
+
+      p { font-size: 10px;}
+
+      .nav {font-size: 10px;}
+
+}
